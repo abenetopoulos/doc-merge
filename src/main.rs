@@ -173,7 +173,7 @@ impl DocMerge {
           .map(|(k, v)| format!(
             r#"
             <li>
-              <div class="item-name"><a href="{0}">{0}</a></div>
+              <div class="item-name"><a href="{0}/index.html">{0}</a></div>
               <div class="desc docblock-short">{1}</div>
             </li>"#,
             k,
